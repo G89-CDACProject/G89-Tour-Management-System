@@ -1,0 +1,97 @@
+.city-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Space between header and content */
+}
+
+.city-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    flex-grow: 1; /* Ensure the city name takes up available space */
+}
+
+.duration-box {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 5px 10px;
+    border-radius: 15px; /* Curved edges */
+    font-size: 0.9em;
+    color: #333; /* Text color */
+    white-space: nowrap; /* Prevent text wrapping */
+    margin-left: 10px; /* Space between city name and duration box */
+    display: inline-block; /* Ensure the box is displayed inline */
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Space between cards */
+}
+
+.col-md-3 {
+    flex: 1 1 calc(25% - 1rem); /* Adjust width for 4 cards per row */
+    max-width: calc(25% - 1rem); /* Ensure card width is within limits */
+}
+
+.page-title {
+    text-align: center; /* Center align the text */
+    margin-bottom: 2rem; /* Space below the title */
+    font-size: 2rem; /* Font size */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Text color */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height:550px; /* Fixed height for consistency */
+    width: 320px;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    overflow: hidden; /* Hide overflow */
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    width: 100%; /* Full width */
+}
+
+.card-body {
+    flex: 1; /* Allows the body to expand and fill space */
+    padding: 1rem;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+}
+
+.city-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.duration-box {
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.price-box {
+    background-color : lightskyblue; /* Change to your preferred color */
+    color: #fff; /* White text for contrast */
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold
+}
